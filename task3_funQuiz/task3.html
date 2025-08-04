@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>😂 Fun Quiz by SkillCraft</title>
+  <link rel="stylesheet" href="task3_style.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">🤣 SkillCraft Technologies Quiz</div>
+    <ul class="nav-links">
+      <li><a href="#">Laugh</a></li>
+      <li><a href="#">Play</a></li>
+      <li><a href="#">Win</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <div class="quiz-container" id="quizContainer">
+      <h2 id="questionText">Loading something funny...</h2>
+      <div id="optionsContainer"></div>
+      <button id="nextBtn">Let's Go 👉</button>
+    </div>
+
+    <div class="result" id="result" style="display: none;">
+      <h2>Your Awesomeness Score: <span id="score"></span>/3 🎯</h2>
+      <p id="reaction"></p>
+      <button onclick="location.reload()">Play Again 😂</button>
+    </div>
+  </div>
+
+  <script src="task3_script.js"></script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background: #181818;
+  color: #fff;
+  padding-top: 80px;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: #111;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 10px #ff00ff55;
+  z-index: 999;
+}
+
+.logo {
+  font-size: 1.4rem;
+  color: #ff00ff;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  color: #ccc;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #ff00ff;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.quiz-container {
+  background: #222;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 0 12px #ff00ff33;
+  text-align: center;
+}
+
+.quiz-container input[type="text"] {
+  padding: 0.5rem;
+  width: 80%;
+  font-size: 1rem;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+  text-align: left;
+}
+
+button {
+  background: #ff00ff;
+  color: #fff;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 10px;
+  font-size: 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ff33ff;
+}
+
+.result {
+  text-align: center;
+}
+
+#reaction {
+  font-size: 1.3rem;
+  margin-top: 1rem;
+}
